@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+     background-color: #33383c;
+     padding:px 0px;
+}	       
+
+.contact span {
+   color: #FFF; 
+   font-weight: 800; 
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+.adress span{
+  color: #FFF; 
+   font-weight: 800; 
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+
+.adress li , .contact li{
+    padding:3px 0px;
+    list-style: none;
+}
+
+.adress li p , .contact li a , .social li a{
+    color:#FFF;
+    letter-spacing: 1px;
+    text-decoration:none;
+    font-size:14px;
+}
+#mail{
+font-size:12px;
+}
+
+#address{
+  font-size:13px;
+}
+
+.container{
+  margin-left: 5px;
+
+}
+
+#cebunortheastern, #footerContacts, #footerLocation{
+  font-size: 1.0em;
+}
+
+#telephone, #cellphone,#address, #footerAbout{
+  font-size: 0.7em;
+   }

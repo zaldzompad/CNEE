@@ -1,0 +1,148 @@
+.navbar {
+    position:absolute
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    padding-top: 50px;
+    width: auto;
+ 
+}
+
+#welcome{
+ 	font-weight: bolder;
+ 	
+ 	
+}
+
+@media only screen and (max-width: 600px) {
+	#welcome{
+		font-size: 1em;
+	}
+	#info{
+		font-size: 80%;
+	}
+	#company{
+		font-size: 1.5em;
+	}
+    
+}
+
+
+#info{
+	font-style: oblique;
+}
+.carousel-caption {
+	top: 35% !important;
+	transform: translateY(-50%);
+	text-align: left;
+	bottom: initial;
+	color: #404142;
+   
+}
+
+
+#company{
+	color: #181917;
+	text-shadow: 2px 1px #96b284;
+	font-weight: 900;
+
+} 
+
+#company:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	display: inline-block;
+	height: 1em;
+	width: 100%;
+	border-bottom: 1px solid;
+	margin-top: 10px;
+	opacity: 0;
+	color: #181917;
+	text-shadow: 2px 1px #96b284;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+#company:hover:after {
+  	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	color: #181917;
+	text-shadow: 2px 1px #96b284;
+}
+/* what we offer */
+
+
+.container img{
+	height: auto;
+	width: 500px;
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: black;
+	margin-left: 75px;
+	max-width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	
+}
+
+#content{
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	.container img{
+		margin-left: 40px;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.container img{
+		margin-left: 25px;
+	}
+}
+
+
+/* @media only screen and (max-width: 1000px) {
+	.container img{
+		margin-left: 29%;
+	}
+	#welcome{
+		margin-left: 29%;
+	}
+	#info{
+		margin-left: 29%;
+	}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

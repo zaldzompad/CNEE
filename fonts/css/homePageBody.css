@@ -1,0 +1,30 @@
+container{
+	width: 960px;
+}
+
+
+/* Testing the layout with makers */
+/* .gridmakers{
+  background-color: #dedef8; 
+  border: solid red 1px;
+} */
+.gridmakers2{
+  background-color: #dedef8; 
+  border: solid red 1px;
+}
+
+/* Make sure images don't get too big */
+img {
+  max-width: 100%;
+}
+
+/* no-gutters Class Rules */
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}

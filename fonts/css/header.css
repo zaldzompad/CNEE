@@ -1,0 +1,7 @@
+.navbar{
+	margin-top: 0px;
+	
+}
+.topnav a.active {
+  border-bottom: 6px solid gray;
+}
